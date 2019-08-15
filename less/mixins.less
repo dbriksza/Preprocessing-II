@@ -1,1 +1,18 @@
 // Mixins in here
+.button(@text-color, @bg-color){
+    width: 100%;
+    height:3rem;
+    padding:.5rem;
+    border-radius:25px;
+    font-size:2rem;
+    color:@text-color;
+    text-align:center;
+    background-color:@bg-color;
+  }
+
+  .flexcolumn(){
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+  }
